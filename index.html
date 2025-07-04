@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInSports - Sports Goods & Technology</title>
+    <meta name="description" content="Modern sports goods and cutting-edge technology products. Fitness trackers, biomechanics cameras, GPS systems and more.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/techinsport-logo.png" alt="TechInSports Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Where Sports Meets <span class="highlight">Technology</span></h1>
+                <p>Discover cutting-edge sports technology and premium sports goods. From fitness trackers to biomechanics cameras, we bring you the future of sports performance.</p>
+                <div class="hero-buttons">
+                    <a href="https://web.facebook.com/techinsports" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-facebook"></i> Shop on Facebook
+                    </a>
+                    <a href="https://wa.me/254701421951" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Fitness Tracking</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-video"></i>
+                        <span>Motion Analysis</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-satellite-dish"></i>
+                        <span>GPS Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Premium Sports Equipment">
+                        <div class="product-overlay">
+                            <button class="quick-view" onclick="openWhatsApp('Premium Sports Equipment')">
+                                <i class="fab fa-whatsapp"></i> Inquire
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Sports Equipment</h3>
+                        <p>High-quality sports gear for professional athletes and enthusiasts.</p>
+                        <div class="product-price">Contact for Price</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Athletic Footwear">
+                        <div class="product-overlay">
+                            <button class="quick-view" onclick="openWhatsApp('Athletic Footwear')">
+                                <i class="fab fa-whatsapp"></i> Inquire
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Athletic Footwear</h3>
+                        <p>Performance-driven footwear for various sports and activities.</p>
+                        <div class="product-price">Contact for Price</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/placeholder.svg?height=250&width=300" alt="Training Accessories">
+                        <div class="product-overlay">
+                            <button class="quick-view" onclick="openWhatsApp('Training Accessories')">
+                                <i class="fab fa-whatsapp"></i> Inquire
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Training Accessories</h3>
+                        <p>Essential accessories to enhance your training experience.</p>
+                        <div class="product-price">Contact for Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="new-arrivals">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="arrivals-slider">
+                <div class="arrival-item">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Latest Sports Gear">
+                    <h3>Latest Sports Gear</h3>
+                    <p>Just arrived - cutting-edge equipment for peak performance</p>
+                    <button onclick="openWhatsApp('Latest Sports Gear')" class="btn btn-outline">
+                        <i class="fab fa-whatsapp"></i> Ask About This
+                    </button>
+                </div>
+                <div class="arrival-item">
+                    <img src="/placeholder.svg?height=200&width=200" alt="New Athletic Wear">
+                    <h3>New Athletic Wear</h3>
+                    <p>Comfortable and stylish athletic clothing for all sports</p>
+                    <button onclick="openWhatsApp('New Athletic Wear')" class="btn btn-outline">
+                        <i class="fab fa-whatsapp"></i> Ask About This
+                    </button>
+                </div>
+                <div class="arrival-item">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Recovery Equipment">
+                    <h3>Recovery Equipment</h3>
+                    <p>Advanced recovery tools for faster muscle rehabilitation</p>
+                    <button onclick="openWhatsApp('Recovery Equipment')" class="btn btn-outline">
+                        <i class="fab fa-whatsapp"></i> Ask About This
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sports Technology -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2>Sports Technology</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Fitness Trackers</h3>
+                    <p>Advanced wearable technology to monitor your health metrics, heart rate, and performance in real-time.</p>
+                    <ul>
+                        <li>Heart Rate Monitoring</li>
+                        <li>Sleep Tracking</li>
+                        <li>Activity Recognition</li>
+                        <li>GPS Integration</li>
+                    </ul>
+                    <button onclick="openWhatsApp('Fitness Trackers')" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Get Details
+                    </button>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Biomechanics Cameras</h3>
+                    <p>High-speed cameras and motion analysis systems for detailed biomechanical assessment and technique improvement.</p>
+                    <ul>
+                        <li>Motion Capture</li>
+                        <li>Technique Analysis</li>
+                        <li>Performance Metrics</li>
+                        <li>3D Movement Tracking</li>
+                    </ul>
+                    <button onclick="openWhatsApp('Biomechanics Cameras')" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Get Details
+                    </button>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>GPS Systems</h3>
+                    <p>Precision GPS tracking systems for outdoor sports, navigation, and performance monitoring across various terrains.</p>
+                    <ul>
+                        <li>Real-time Tracking</li>
+                        <li>Route Planning</li>
+                        <li>Speed & Distance</li>
+                        <li>Weather Integration</li>
+                    </ul>
+                    <button onclick="openWhatsApp('GPS Systems')" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Get Details
+                    </button>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Performance Analytics</h3>
+                    <p>Comprehensive data analysis tools and software to track, analyze, and improve athletic performance over time.</p>
+                    <ul>
+                        <li>Data Visualization</li>
+                        <li>Progress Tracking</li>
+                        <li>Comparative Analysis</li>
+                        <li>Custom Reports</li>
+                    </ul>
+                    <button onclick="openWhatsApp('Performance Analytics')" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Get Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Elevate Your Game?</h3>
+                    <p>Contact us through your preferred platform for personalized product recommendations and pricing information.</p>
+                    <div class="contact-methods">
+                        <a href="https://web.facebook.com/techinsports" target="_blank" class="contact-method">
+                            <i class="fab fa-facebook"></i>
+                            <div>
+                                <h4>Facebook</h4>
+                                <p>Browse our full catalog and message us directly</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/254701421951" target="_blank" class="contact-method">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+254 701 421 951 - Quick responses guaranteed</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Quick Inquiry</h3>
+                    <form id="inquiryForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <select required>
+                            <option value="">Select Product Category</option>
+                            <option value="sports-equipment">Sports Equipment</option>
+                            <option value="fitness-trackers">Fitness Trackers</option>
+                            <option value="biomechanics">Biomechanics Cameras</option>
+                            <option value="gps-systems">GPS Systems</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="/techinsport-logo.png" alt="TechInSports Logo" class="footer-logo">
+                    <p>Bridging the gap between traditional sports and modern technology for enhanced performance and experience.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/techinsports" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/254701421951" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechInSports.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
